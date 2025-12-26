@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Junkai_website/static/css/main.9ee5e81e.css",
+    "main.js": "/Junkai_website/static/js/main.b380a3b6.js",
+    "index.html": "/Junkai_website/index.html",
+    "main.9ee5e81e.css.map": "/Junkai_website/static/css/main.9ee5e81e.css.map",
+    "main.b380a3b6.js.map": "/Junkai_website/static/js/main.b380a3b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ee5e81e.css",
+    "static/js/main.b380a3b6.js"
+  ]
+}
