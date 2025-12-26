@@ -134,9 +134,5 @@ junkaiyang_web/
 
 MIT License
 
-## 联系方式
 
-- Email: kjy10312k@gmail.com
-- Phone: 9209394121
-- Address: Highland park NJ
 
