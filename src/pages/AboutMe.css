@@ -1,0 +1,109 @@
+.about-me {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #1565c0;
+}
+
+.about-content {
+  margin-top: 30px;
+}
+
+.profile-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.profile-image-section {
+  flex-shrink: 0;
+  width: 300px;
+}
+
+.lab-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+.profile-info-section {
+  flex: 1;
+}
+
+.profile-name {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.profile-department {
+  font-size: 18px;
+  color: #666;
+  margin: 0 0 25px 0;
+  font-style: italic;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-item {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.contact-item strong {
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.email-link {
+  color: #1565c0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.email-link:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .profile-layout {
+    flex-direction: column;
+  }
+
+  .profile-image-section {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .page-title {
+    font-size: 24px;
+  }
+
+  .profile-name {
+    font-size: 28px;
+  }
+
+  .profile-department {
+    font-size: 16px;
+  }
+}
+
