@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Personal resume website for Junkai Yang",
   "private": true,
-  "homepage": "https://yourusername.github.io/junkaiyang_web",
+  "homepage": "https://Monday-could.github.io/Junkai_website",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -33,6 +33,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
-
