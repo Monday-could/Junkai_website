@@ -27,7 +27,8 @@ export const translations = {
         title: "语言",
         mandarin: "普通话",
         english: "英语"
-      }
+      },
+      copyright: "本网站由 Junkai Yang 设计和编辑，由 Qingyi Xiang 编程，UW-Madison WI 53706"
     },
     research: {
       selectButton: "像这样的选择按钮:",
@@ -129,7 +130,8 @@ export const translations = {
         title: "Languages",
         mandarin: "Mandarin",
         english: "English"
-      }
+      },
+      copyright: "This website was designed and edited by Junkai Yang, programmed by Qingyi Xiang, UW-Madison WI 53706"
     },
     research: {
       selectButton: "Selection button like this:",

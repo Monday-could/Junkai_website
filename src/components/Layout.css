@@ -86,6 +86,9 @@
   padding: 40px 50px;
   background-color: #fff;
   position: relative;
+  min-height: calc(100vh - 0px);
+  display: flex;
+  flex-direction: column;
 }
 
 .language-toggle {

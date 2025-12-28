@@ -1,6 +1,13 @@
 .about-me {
   max-width: 1000px;
   margin: 0 auto;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+  padding-bottom: 100px;
 }
 
 .page-title {
@@ -15,6 +22,7 @@
 
 .about-content {
   margin-top: 30px;
+  flex: 1;
 }
 
 .profile-layout {
@@ -105,5 +113,25 @@
   .profile-department {
     font-size: 16px;
   }
+}
+
+.copyright-section {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  background-color: #fff;
+}
+
+.copyright-text {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  font-style: italic;
 }
 

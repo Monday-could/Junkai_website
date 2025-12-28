@@ -37,6 +37,9 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
+      <div className="copyright-section">
+        <p className="copyright-text">{t.aboutMe.copyright}</p>
+      </div>
     </div>
   );
 };
