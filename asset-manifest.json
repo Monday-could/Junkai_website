@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Junkai_website/static/css/main.9ee5e81e.css",
-    "main.js": "/Junkai_website/static/js/main.b380a3b6.js",
+    "main.css": "/Junkai_website/static/css/main.28cd4011.css",
+    "main.js": "/Junkai_website/static/js/main.60e82909.js",
     "index.html": "/Junkai_website/index.html",
-    "main.9ee5e81e.css.map": "/Junkai_website/static/css/main.9ee5e81e.css.map",
-    "main.b380a3b6.js.map": "/Junkai_website/static/js/main.b380a3b6.js.map"
+    "main.28cd4011.css.map": "/Junkai_website/static/css/main.28cd4011.css.map",
+    "main.60e82909.js.map": "/Junkai_website/static/js/main.60e82909.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ee5e81e.css",
-    "static/js/main.b380a3b6.js"
+    "static/css/main.28cd4011.css",
+    "static/js/main.60e82909.js"
   ]
 }
