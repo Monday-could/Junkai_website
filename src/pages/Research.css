@@ -128,6 +128,14 @@
   flex-direction: row-reverse;
 }
 
+.activity-item-no-image {
+  /* 没有图片时，内容占满整个宽度 */
+}
+
+.activity-item-no-image .activity-content {
+  width: 100%;
+}
+
 .activity-image {
   flex-shrink: 0;
   width: 300px;

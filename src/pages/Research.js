@@ -48,31 +48,48 @@ const Research = ({ researchId }) => {
           {currentResearch.activities && currentResearch.activities.length > 0 ? (
             <div className="activities-list">
               {currentResearch.activities.map((activity, index) => {
-                // 对于 research1，使用 image 文件夹中的图片，按序号 1, 2, 3 从上到下
-                const imageSrc = researchId === 'research1' 
-                  ? `${process.env.PUBLIC_URL || ''}/image/${index + 1}.jpg`
-                  : `https://via.placeholder.com/300x200?text=Research+Image+${index + 1}`;
+                // 图片路径配置：
+                // research1: 图片 1, 2, 3
+                // research2: 第一部分（index 0）没有图片，第二部分（index 1）图片4，第三部分（index 2）图片5
+                // research3: 图片 6, 7, 8
+                let imageSrc = null;
+                if (researchId === 'research1') {
+                  imageSrc = `${process.env.PUBLIC_URL || ''}/image/${index + 1}.jpg`;
+                } else if (researchId === 'research2') {
+                  // 第一部分（index 0）没有图片
+                  if (index === 0) {
+                    imageSrc = null;
+                  } else {
+                    // 第二部分（index 1）图片4，第三部分（index 2）图片5
+                    imageSrc = `${process.env.PUBLIC_URL || ''}/image/${index + 3}.jpg`;
+                  }
+                } else if (researchId === 'research3') {
+                  // 图片 6, 7, 8
+                  imageSrc = `${process.env.PUBLIC_URL || ''}/image/${index + 6}.jpg`;
+                } else {
+                  imageSrc = `https://via.placeholder.com/300x200?text=Research+Image+${index + 1}`;
+                }
+                
+                // 对于科研2的第一部分，没有图片，需要调整布局
+                const hasImage = imageSrc !== null;
+                const shouldReverse = hasImage && index % 2 === 1;
                 
                 return (
                   <div 
                     key={index} 
-                    className={`activity-item ${index % 2 === 1 ? 'activity-item-reverse' : ''}`}
+                    className={`activity-item ${shouldReverse ? 'activity-item-reverse' : ''} ${!hasImage ? 'activity-item-no-image' : ''}`}
                   >
-                    <div className="activity-image">
-                      <img 
-                        src={imageSrc}
-                        alt={activity.title}
-                        className="activity-img"
-                        onClick={() => handleImageClick(imageSrc, activity.title)}
-                        style={{ cursor: 'pointer' }}
-                        onError={(e) => {
-                          // 如果图片加载失败，使用占位图
-                          if (researchId === 'research1') {
-                            e.target.src = `https://via.placeholder.com/300x200?text=Image+${index + 1}+Not+Found`;
-                          }
-                        }}
-                      />
-                    </div>
+                    {hasImage && (
+                      <div className="activity-image">
+                        <img 
+                          src={imageSrc}
+                          alt={activity.title}
+                          className="activity-img"
+                          onClick={() => handleImageClick(imageSrc, activity.title)}
+                          style={{ cursor: 'pointer' }}
+                        />
+                      </div>
+                    )}
                     <div className="activity-content">
                       <h3 className="activity-title">{activity.title}</h3>
                       <p className="activity-text">{activity.content}</p>
