@@ -33,10 +33,7 @@ const Research = ({ researchId }) => {
       <div className="research-content">
         <h1 className="research-title">{currentResearch.title}</h1>
 
-        <div className="research-synopsis-section">
-          <h2 className="section-heading">{t.research.synopsis}</h2>
-          <p className="research-synopsis">{currentResearch.synopsis}</p>
-        </div>
+
 
         <div className="research-summary-section">
           <h2 className="section-heading">{t.research.summary}</h2>
