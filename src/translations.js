@@ -66,19 +66,19 @@ export const translations = {
     research2: {
       title: "使用蛋白质和酶基方法进行分子水平的水体修复",
       synopsis: "酶辅助水污染控制、蛋白质基修复、酶催化降解、分子水平修复、生物催化策略、有机污染物去除、水体修复。",
-      summary: "本研究通过研究基于蛋白质和酶的方法来靶向特定有机水污染物，探索分子水平的河流修复策略。虽然传统的物理方法专注于大量去除，但这项工作强调生化降解和结合机制，可以选择性地转化或固定有害化合物。该研究评估了将生物分子处理与现有物理修复技术相结合以改善水质的可行性。",
+      summary: "这项研究旨在探索河流修复的分子层面策略，具体方法是研究基于蛋白质和酶的方法，以靶向特定的有机水污染物。传统物理方法侧重于整体去除污染物，而这项研究则强调生物化学降解和结合机制，这些机制可以有选择地转化或固定有害化合物。该研究评估了将生物分子处理方法与现有物理修复技术相结合以改善水质的可行性。",
       activities: [
         {
-          title: "用于分子尺度去除有机水污染物的生物催化策略",
-          content: "传统的河流修复策略主要依赖于物理或物理化学方法，如疏浚、过滤和沉积物去除，这些方法对大量污染物有效，但往往缺乏分子选择性。近年来，基于蛋白质和酶的修复方法已成为在分子水平上解决特定有机污染物的有前景的工具。大量研究表明，漆酶和过氧化物酶等酶可以催化降解水生环境中的药物、染料、酚类化合物和其他持久性有机污染物。"
+          title: "酶法去除有机污染物的优势",
+          content: "酶法修复是解决河流系统化学污染的有效策略，因为许多持久性有机污染物，特别是药物活性化合物，对传统的废水处理方法具有耐受性，但它们在化学上仍然容易受到生物催化氧化的作用。漆酶等酶具有广泛的底物特异性，可以选择性地氧化药物、抗生素和其他有机微污染物中常见的芳香族和酚类官能团，将其转化为毒性更低、更易生物降解的产物。与需要高能耗或产生有害副产物的物理化学处理方法不同，酶降解在温和的环境条件下进行，并以分子氧作为氧化剂，使其成为一种可持续且环境友好的河流修复方法。"
         },
         {
-          title: "用于分子水平水体修复的酶介导机制",
-          content: "在分子水平上，基于蛋白质的水体修复主要依赖于催化有机污染物特定化学转化的酶。这些酶通过选择性结合相互作用识别目标分子，并促进氧化、水解或键断裂等反应，将有害化合物转化为毒性较低或更易生物降解的产品。在水生环境中，酶在固体载体（如水凝胶、生物炭或聚合物基质）上的固定化增强了其对pH波动、温度变化和酶降解的稳定性，同时保持催化活性。这种方法使污染物和酶之间能够受控相互作用，即使在河流等动态水系统中也能实现分子尺度的修复。"
+          title: "酶介导污染物降解的分子机制",
+          content: "在分子层面，酶促修复过程是通过特定的酶-底物相互作用实现的，这种相互作用能够选择性地氧化有机污染物。漆酶等酶含有多铜活性位点，可以介导单电子转移反应，从药物污染物中常见的酚类或芳香族部分生成自由基中间体。这些自由基随后发生键断裂、重排或寡聚化反应，导致母体化合物的结构分解和解毒。例如，漆酶可以通过自由基介导的氧化途径有效降解双氯芬酸和卡马西平，在固定化状态下，几小时内即可去除高达95%的双氯芬酸，同时降低了转化产物的毒性。该催化循环以分子氧作为最终电子受体完成，仅产生水作为副产物，从而能够高效降解痕量药物，而不会产生有害的二次污染物。"
         },
         {
-          title: "漆酶催化的药物污染物氧化降解",
-          content: "漆酶催化单电子氧化反应，产生反应性自由基中间体，随后发生键断裂、重排或聚合，产生毒性较低且更易生物降解的产品。在水处理研究中，漆酶通常固定在固体载体上，如水凝胶或聚合物基质，这增强了酶对pH变化、温度波动和酶失活的稳定性，同时保持催化效率。这种固定化配置允许流动水和酶之间的持续相互作用，使基于漆酶的系统特别适合靶向废水和河流环境中的痕量药物。"
+          title: "拟议的河流系统酶促修复策略",
+          content: "首先将进行水样采集和化学分析，利用色谱技术确认代表性污染物的存在及其浓度。污染物鉴定后，将采用固定化漆酶生物催化系统，在环境相关条件下（包括中性pH和环境温度）评估其降解效率。酶固定化技术可提高酶的催化稳定性，防止酶稀释，并实现酶的重复利用，从而提高其在开放水体系统中的应用性。我们将通过监测母体化合物的去除和转化产物的形成来评估降解性能，并特别关注毒性降低情况，以确定酶基修复技术作为一种可持续方法，在治理受药物污染的河流系统中的可行性。"
         }
       ]
     },
@@ -172,16 +172,16 @@ export const translations = {
       summary: "This research explores molecular-level strategies for river remediation by investigating protein- and enzyme-based approaches to target specific organic water pollutants. While conventional physical methods focus on bulk removal, this work emphasizes biochemical degradation and binding mechanisms that can selectively transform or immobilize hazardous compounds. The study evaluates the feasibility of integrating biomolecular treatments with existing physical remediation techniques to improve water quality.",
       activities: [
         {
-          title: "Biocatalytic strategies for molecular-scale removal of organic water pollutants",
-          content: "Conventional river remediation strategies largely rely on physical or physicochemical methods such as dredging, filtration, and sediment removal, which are effective for bulk pollutants but often lack molecular selectivity. In recent years, protein- and enzyme-based remediation approaches have emerged as promising tools for addressing specific organic contaminants at the molecular level. Numerous studies have demonstrated that enzymes such as laccases and peroxidases can catalyze the degradation of pharmaceuticals, dyes, phenolic compounds, and other persistent organic pollutants in aquatic environments."
+          title: "Molecular Mechanism of Enzyme-Mediated Pollutant Degradation",
+          content: "At the molecular level, enzymatic remediation proceeds through specific enzyme–substrate interactions that enable selective oxidation of organic pollutants. Enzymes such as laccase contain multicopper active sites that mediate single-electron transfer reactions, generating radical intermediates from phenolic or aromatic moieties commonly present in pharmaceutical contaminants. These radicals subsequently undergo bond cleavage, rearrangement, or oligomerization, leading to structural breakdown and detoxification of the parent compound. For example, laccase effectively degrades diclofenac and carbamazepine via radical-mediated oxidation pathways, achieving up to 95 % removal of diclofenac within hours when immobilized, while simultaneously reducing the toxicity of the resulting transformation products. The catalytic cycle is completed using molecular oxygen as the terminal electron acceptor, producing water as the sole by-product, which allows efficient degradation of trace-level pharmaceuticals without generating harmful secondary pollutants"
         },
         {
-          title: "Enzyme-Mediated Mechanisms for Molecular-Level Water Remediation",
+          title: "Molecular Mechanism of Enzyme-Mediated Pollutant Degradation",
           content: "At the molecular level, protein-based water remediation primarily relies on enzymes that catalyze specific chemical transformations of organic pollutants. These enzymes recognize target molecules through selective binding interactions and promote reactions such as oxidation, hydrolysis, or bond cleavage, converting hazardous compounds into less toxic or more biodegradable products. In aquatic environments, enzyme immobilization on solid supports—such as hydrogels, biochar, or polymer matrices—enhances stability against pH fluctuations, temperature changes, and enzymatic degradation, while maintaining catalytic activity. This approach enables controlled interaction between pollutants and enzymes, making molecular-scale remediation feasible even in dynamic water systems such as rivers."
         },
         {
-          title: "Laccase-Catalyzed Oxidative Degradation of Pharmaceutical Contaminants",
-          content: "Laccase catalyzes single-electron oxidation reactions, generating reactive radical intermediates that subsequently undergo bond cleavage, rearrangement, or polymerization, leading to less toxic and more biodegradable products. In water treatment studies, laccase is often immobilized on solid supports such as hydrogels or polymer matrices, which enhances enzyme stability against pH variation, temperature fluctuations, and enzymatic deactivation while maintaining catalytic efficiency. This immobilized configuration allows sustained interaction between flowing water and the enzyme, making laccase-based systems particularly suitable for targeting trace pharmaceuticals in wastewater and riverine environments."
+          title: "Proposed Enzymatic Remediation Strategy for River Systems",
+          content: "Initial water sampling and chemical analysis will be conducted to confirm the presence and concentration of representative pollutant using chromatographic techniques. Following pollutant identification, an immobilized laccase-based biocatalytic system will be employed to evaluate degradation efficiency under environmentally relevant conditions, including neutral pH and ambient temperature. Enzyme immobilization will be used to enhance catalytic stability, prevent enzyme dilution, and enable reuse, thereby improving applicability in open-water systems. Degradation performance will be assessed by monitoring parent compound removal and transformation product formation, with particular emphasis on toxicity reduction, establishing the feasibility of enzyme-based remediation as a sustainable approach for river systems impacted by pharmaceutical pollution."
         }
       ]
     },

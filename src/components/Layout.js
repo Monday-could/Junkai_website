@@ -19,13 +19,6 @@ const Layout = ({ children }) => {
         {/* Left Sidebar */}
         <aside className="sidebar" role="navigation" aria-label="Main navigation">
           <div className="profile-section">
-            <div className="profile-photo">
-              <img 
-                src="https://via.placeholder.com/200x200?text=Profile+Photo" 
-                alt={t.aboutMe.name}
-                className="photo"
-              />
-            </div>
             <nav className="nav-menu">
               <Link 
                 to="/about-me" 

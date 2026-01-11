@@ -3,6 +3,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../translations';
 import './AboutMe.css';
 
+
 const AboutMe = () => {
   const { language } = useLanguage();
   const t = translations[language];
@@ -15,7 +16,7 @@ const AboutMe = () => {
         <div className="profile-layout">
           <div className="profile-image-section">
             <img 
-              src="https://via.placeholder.com/300x400?text=Lab+Photo" 
+              src={process.env.PUBLIC_URL + "/image/9.jpg"}
               alt="Laboratory Photo"
               className="lab-photo"
             />
